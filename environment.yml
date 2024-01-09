@@ -1,0 +1,15 @@
+name: DMI
+channels:
+- conda-forge
+- anaconda
+- defaults
+dependencies:
+- python=3.8
+- pandas
+- jupyter
+- python-dotenv
+- requests
+- pip
+- pip:
+  - replicate
+  - google-cloud-vision
